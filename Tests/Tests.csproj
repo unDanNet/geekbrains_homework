@@ -43,12 +43,17 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Lesson2-Tests.cs" />
+        <Compile Include="Lesson4-Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\lesson-2\lesson-2.csproj">
         <Project>{2b6dc2b6-82b2-4edc-ba04-af724b29a13e}</Project>
         <Name>lesson-2</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\lesson-4\lesson-4.csproj">
+        <Project>{5e44c96a-cd43-4bc9-8b5d-03926288febc}</Project>
+        <Name>lesson-4</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
