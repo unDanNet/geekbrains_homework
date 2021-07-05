@@ -44,6 +44,7 @@
     <ItemGroup>
         <Compile Include="Lesson2-Tests.cs" />
         <Compile Include="Lesson4-Tests.cs" />
+        <Compile Include="Lesson7-Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -54,6 +55,10 @@
       <ProjectReference Include="..\lesson-4\lesson-4.csproj">
         <Project>{5e44c96a-cd43-4bc9-8b5d-03926288febc}</Project>
         <Name>lesson-4</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\lesson-7\lesson-7.csproj">
+        <Project>{1bcba9f9-1c5b-4662-a58e-2945748c66c8}</Project>
+        <Name>lesson-7</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
