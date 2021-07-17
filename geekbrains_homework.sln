@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson-1", "lesson-1\lesson-1.csproj", "{87E9FFC5-F709-44EB-A5AE-06A93D722A50}"
 EndProject
@@ -13,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson-5", "lesson-5\lesson-5.csproj", "{5C4B6454-EFC3-49B0-AFD8-93DA8B38C109}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson-7", "lesson-7\lesson-7.csproj", "{1BCBA9F9-1C5B-4662-A58E-2945748C66C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson-8", "lesson-8\lesson-8.csproj", "{993140F9-BD36-43FD-9162-483494897C49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +49,9 @@ Global
 		{1BCBA9F9-1C5B-4662-A58E-2945748C66C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BCBA9F9-1C5B-4662-A58E-2945748C66C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BCBA9F9-1C5B-4662-A58E-2945748C66C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993140F9-BD36-43FD-9162-483494897C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993140F9-BD36-43FD-9162-483494897C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993140F9-BD36-43FD-9162-483494897C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993140F9-BD36-43FD-9162-483494897C49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
