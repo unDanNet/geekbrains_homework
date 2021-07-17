@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
     <PropertyGroup>
@@ -44,6 +44,7 @@
     <ItemGroup>
         <Compile Include="Lesson2-Tests.cs" />
         <Compile Include="Lesson4-Tests.cs" />
+        <Compile Include="Lesson7-Tests.cs" />
         <Compile Include="lesson8-Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
@@ -56,6 +57,9 @@
         <Project>{5e44c96a-cd43-4bc9-8b5d-03926288febc}</Project>
         <Name>lesson-4</Name>
       </ProjectReference>
+      <ProjectReference Include="..\lesson-7\lesson-7.csproj">
+        <Project>{1bcba9f9-1c5b-4662-a58e-2945748c66c8}</Project>
+        <Name>lesson-7</Name>
       <ProjectReference Include="..\lesson-8\lesson-8.csproj">
         <Project>{993140f9-bd36-43fd-9162-483494897c49}</Project>
         <Name>lesson-8</Name>
